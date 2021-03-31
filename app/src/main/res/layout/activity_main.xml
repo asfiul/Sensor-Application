@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30sp"
+    android:background="@drawable/wt"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+  <androidx.cardview.widget.CardView
+      android:foreground="?android:attr/selectableItemBackground"
+      android:clickable="true"
+      android:id="@+id/Vaccelerometer"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_columnWeight="1"
+      android:layout_rowWeight="1"
+      app:cardElevation="6dp"
+      app:cardCornerRadius="12dp"
+      android:layout_margin="12dp">
+      <LinearLayout
+          android:background="#6A5ACD"
+          android:orientation="vertical"
+          android:padding="16dp"
+          android:gravity="center"
+          android:layout_width="match_parent"
+          android:layout_height="160dp">
+          <TextView
+              android:text="Accelerometer"
+              android:textStyle="bold"
+              android:textSize="25dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="#000000"/>
+          <TextView
+              android:layout_width="100sp"
+              android:layout_height="wrap_content"
+              android:id="@+id/xValue"
+              android:textColor="#FFFFFF"/>
+          <TextView
+              android:layout_width="100sp"
+              android:layout_height="wrap_content"
+              android:id="@+id/yValue"
+              android:textColor="#FFFFFF"/>
+
+          <TextView
+              android:layout_width="100sp"
+              android:layout_height="wrap_content"
+              android:id="@+id/zValue"
+              android:textColor="#FFFFFF"/>
+      </LinearLayout>
+
+
+
+  </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+
+        android:clickable="true"
+        android:id="@+id/Vgyroscope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="12dp"
+        >
+        <LinearLayout
+            android:background="#8A2BE2"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <TextView
+                android:text="Gyroscope"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/x_GValue"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/y_GValue"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/z_GValue"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+            <LinearLayout
+                android:background="#FF7F50"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="160dp">
+                <TextView
+                    android:text="Light"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/light"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/Proximity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+            <LinearLayout
+                android:background="#48D1CC"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="160dp">
+                <TextView
+                    android:text="Proximity"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/proximity"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

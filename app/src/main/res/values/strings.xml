@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sensor App</string>
+
+
+    <string name="about">
+        Application for testing sensors\n\n
+        Spported sensor:\n\n
+        Accelerometer,
+        Gyroscope,
+        Light sensor,
+        Proximity sensor\n\n
+
+       App Developed By \n \n
+    [Asfiul] \n \n
+        [Email: Asfiulislam80@gmail.com]
+    </string>
+
+</resources>
+
